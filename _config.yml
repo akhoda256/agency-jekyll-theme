@@ -6,42 +6,99 @@ title: Mimos Project
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
+definition:
+  title: Definition
+  description: The MIMOS project aims at developing methods and tools to enable deterministic modeling of real-time systems with predictable timing behaviors, and also supporting incremental updates after deployment without redesigning the whole system.
+  features:
+    - title: Real-time Systems
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      icon: fa-linux
+    - title: Predictable Timing Behaviors
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      icon: fa-clock-o
+    - title: Online Updating
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      icon: fa-download
 
+events:
+  title: Events
+  description: Lorem ipsum dolor sit amet consectetur.
 # Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+team:
+  title: Our Amazing Team
+  description: Lorem ipsum dolor sit amet consectetur.
+  people:
+  - name: Wang Yi
+    pic: 1
+    position: Professor
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: stack-overflow
+        url: #
+  - name: Susanne Graf
+    pic: 2
+    position: Professor
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+  - name: Morteza Mohaqeqi
+    pic: 3
+    position: Senior Researcher
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: google-plus
+        url: #
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
+publications:
+  title: Publications
+  description: Lorem ipsum dolor sit amet consectetur.
+  papers:
+  - title: A Deterministic Model for the Design and Update of Real-Time
+    abstract: Inspired by the pioneering work of Gilles Kahn on concurrent systems, we propose to model timed systems as a network of software components (implemented as real-time processes or tasks), each of which is specified to compute a collection of functions according to given timing constraints. We present a fixed-point semantics for this model which shows that each system function of such a network computes for a given set of (timed) input streams, a deterministic (timed) output stream. As a desired feature, such a network model can be modified by integrating new components for adding new system functions without changing the existing ones. Additionally, existing components may be replaced also by new ones fulfilling given requirements. Thanks to the deterministic semantics, a model-based approach is enabled for not only building systems but also updating them after deployment, allowing for efficient analysis techniques such as model-in-the-loop simulation to verify the complete behaviour of the updated system.
+    pic: 1
+    index: 1
+    authors: Wang Yi, Morteza Mohaqeqi, Susanne Graf
+    date: 2020
+    location: arXiv
+    resources:
+      - title: pdf
+        url: https://arxiv.org/abs/2011.13234
+        icon: fa-file-pdf-o
+      - title: github
+        url: https://github.com/uu-mimos/datoor
+        icon: fa-github
+  - title: A Deterministic Model for the Design and Update of Real-Time
+    abstract: Inspired by the pioneering work of Gilles Kahn on concurrent systems, we propose to model timed systems as a network of software components (implemented as real-time processes or tasks), each of which is specified to compute a collection of functions according to given timing constraints. We present a fixed-point semantics for this model which shows that each system function of such a network computes for a given set of (timed) input streams, a deterministic (timed) output stream. As a desired feature, such a network model can be modified by integrating new components for adding new system functions without changing the existing ones. Additionally, existing components may be replaced also by new ones fulfilling given requirements. Thanks to the deterministic semantics, a model-based approach is enabled for not only building systems but also updating them after deployment, allowing for efficient analysis techniques such as model-in-the-loop simulation to verify the complete behaviour of the updated system.
+    pic: 1
+    index: 2
+    authors: Wang Yi, Morteza Mohaqeqi, Susanne Graf
+    date: 2020
+    location: arXiv
+    resources:
+      - title: pdf
+        url: https://arxiv.org/abs/2011.13234
+        icon: fa-file-pdf-o
+  - title: A Deterministic Model for the Design and Update of Real-Time
+    abstract: Inspired by the pioneering work of Gilles Kahn on concurrent systems, we propose to model timed systems as a network of software components (implemented as real-time processes or tasks), each of which is specified to compute a collection of functions according to given timing constraints. We present a fixed-point semantics for this model which shows that each system function of such a network computes for a given set of (timed) input streams, a deterministic (timed) output stream. As a desired feature, such a network model can be modified by integrating new components for adding new system functions without changing the existing ones. Additionally, existing components may be replaced also by new ones fulfilling given requirements. Thanks to the deterministic semantics, a model-based approach is enabled for not only building systems but also updating them after deployment, allowing for efficient analysis techniques such as model-in-the-loop simulation to verify the complete behaviour of the updated system.
+    pic: 1
+    index: 3
+    authors: Wang Yi, Morteza Mohaqeqi, Susanne Graf
+    date: 2020
+    location: arXiv
+    resources:
+      - title: pdf
+        url: https://arxiv.org/abs/2011.13234
+        icon: fa-file-pdf-o
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
